@@ -1,0 +1,35 @@
+* Built-in Packages on the Emacsmirror
+
+The Emacsmirror now contains separate repositories for all built-in packages - that is all packages distributed with Emacs.
+
+You likely came here by clicking the "homepage" link on the github page of one of these repositories.  I am glad you did - if you intend to fork or even just use one of these repositories it is very important that you read the following section.
+
+* Essential Information
+
+These package repositories or rather the branches named =builtin= were created by limiting the history to only the libraries that are part of the built-in package using =git filter-branch=.  They contain the full history of all libraries belonging to the package including the original commit messages and files which no longer exist.
+
+Assigning libraries to packages was done based on information available in Emacs (see variable =finder--builtins-alist= and function =finder-compile-keywords=).  Libraries which used to existed but no longer do have been manually assigned to packages.  It is very likely that mistakes have been made in the process.  Over time these mistakes will be detected and then corrected.
+
+Since the package branches are supposed to preserve the *history* of a set of files not just their final *state* it is not possible to fix a mistake with a new commit. Instead the branch has to be recreated from scratch using the corrected set definition.  This is called history rewriting and should usually be avoided but this is one of those cases where it is justified.
+
+If history is rewritten you MUST NOT merge the new history.  Instead you MUST rebase your own work onto the new history as described in the =git filter-branch= man page.  Doing so requires some work but isn't all that difficult either.  If you are not willing to do so, if the need arises, you should not be using these repositories in the first place.
+
+If you fork one of these repositories please DO NOT remove the link that brought you here from your fork - other people need to see this too.
+
+* FAQ
+
+** How often are these branches/repositories updated?
+
+Not very often at the moment.  The current plan is to update each time a new pre-release becomes available.  But if interest is high enough I might do so more often.
+
+** How do I get my changes merged into Emacs?
+
+Certainly not by pointing the Emacs maintainers to your fork of a package repository.  They don't use github.  They don't use git. They use bzr. They use a repository containing all of Emacs.  They like it that way.  Create patches and send them to the mailing list instead.  Git can help you do so.
+
+** Package X consists of a single library =X.el=.  Why is it located at =PREFIX/X.el= instead of at the top-level?
+
+X *now* consists of library =PREFIX/X.el= only.  In the past it contained additional libraries located elsewhere and/or =X.el= used to be located elsewhere.  If possible directories are dropped but only =lisp/= can always be dropped.
+
+** What tools are you using to do this?
+
+[[http://tarsius.github.com/git-subpull][git subpull]] which is a wrapper around =git filter-branch= which does pull and filter in one step.
