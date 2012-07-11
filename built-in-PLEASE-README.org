@@ -20,7 +20,7 @@ If you fork one of these repositories please DO NOT remove the link that brought
 
 ** How often are these branches/repositories updated?
 
-Not very often at the moment.  The current plan is to update each time a new pre-release becomes available.  But if interest is high enough I might do so more often.
+Not very often at the moment.  They are currently up-to-date with the latest Emacs release (24.1).
 
 ** How do I get my changes merged into Emacs?
 
