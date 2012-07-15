@@ -1,15 +1,15 @@
 * The Emacsmirror
 
-The Emacsmirror collects [[http://www.gnu.org/software/emacs/emacs.html][Emacs]] Lisp packages and distributes them in form
-of [[http://git-scm.comrepositories][Git]] - one per package.
+The Emacsmirror collects [[http://www.gnu.org/software/emacs/emacs.html][Emacs]] Lisp packages and distributes them in
+form of [[http://git-scm.comrepositories][Git]] -- one per package.
 
-| Emacsmirror Homepage     | [[http://emacsmirror.github.com]]           |
+| Emacsmirror Homepage     | [[http://emacsmirror.org]]                  |
 | Emacsmirror Repositories | [[https://github.com/emacsmirror]]          |
-| Emacsattic Homepage      | [[http://emacsattic.github.com]]            |
 | Emacsattic Repositories  | [[https://github.com/emacsattic]]           |
 | Issues Tracker           | [[https://github.com/emacsmirror/p/issues]] |
 
-[[https://github.com/emacsmirror/p/wiki/emacsmirror.jpg]]
-#+BEGIN_QUOTE
-[[http://www.flickr.com/photos/davidbygott/4042781521][Image]] Copyright 1978 kibuyu - CC BY-NC-SA 2.0
-#+END_QUOTE
+* Emacsmirror's Issue Tracker
+
+While projects on github come with an issue tracker that isn't
+available for accounts. So this fake project =p= serves as the issue
+tracker of the =emacsmirror= organisation.
