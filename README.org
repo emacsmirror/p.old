@@ -3,10 +3,10 @@
 The Emacsmirror collects [[http://www.gnu.org/software/emacs/emacs.html][Emacs]] Lisp packages and distributes them in
 form of [[http://git-scm.comrepositories][Git]] repositories -- one per package.
 
-| Emacsmirror Splashpage   | [[http://emacsmirror.org]]                  |
-| Emacsmirror Repositories | [[https://github.com/emacsmirror]]          |
-| Emacsattic Repositories  | [[https://github.com/emacsattic]]           |
-| Issues Tracker           | [[https://github.com/emacsmirror/p/issues]] |
+| Emacsmirror Splashpage   | http://emacsmirror.org                  |
+| Emacsmirror Repositories | https://github.com/emacsmirror          |
+| Emacsattic Repositories  | https://github.com/emacsattic           |
+| Issues Tracker           | https://github.com/emacsmirror/p/issues |
 
 * Emacsmirror's Issue Tracker
 
