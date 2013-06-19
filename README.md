@@ -42,4 +42,5 @@ because then everyone can benefit.
 [emacs]:  http://www.gnu.org/software/emacs/emacs.html
 [git]:    http://git-scm.com
 [github]: https://github.com
+[wiki]:   http://emacswiki.org
 [issues]: https://github.com/emacsmirror/p/issues
