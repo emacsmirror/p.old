@@ -44,3 +44,7 @@ because then everyone can benefit.
 [github]: https://github.com
 [wiki]:   http://emacswiki.org
 [issues]: https://github.com/emacsmirror/p/issues
+
+### This isn't emacs-mirror
+
+Someone keeps a mirror of the official GNU Emacs source repository here on Github, at [emacs-mirror](https://github.com/emacs-mirror).  Check there for Emacs proper.
