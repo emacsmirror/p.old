@@ -11,8 +11,8 @@ uses, on the Emacsmirror each package is available as a Git
 repository.
 
 Not all packages are mirrored but with it's about 3400 packages the
-Emacsmirror is by far the largest ~~and also most up-to-date~~ collection
-available. ~~Packages are updated several times per week.~~ Instead of
+Emacsmirror is by far the largest and also most up-to-date collection
+available. Packages are updated several times per week. Instead of
 keeping them around forever obsolete and/or abandoned packages are
 moved to the [Emacsattic][attic], where they are no longer
 updated.
@@ -22,8 +22,8 @@ updated.
 * Emacsmirror Repositories: https://github.com/emacsmirror
 * Emacsattic Repositories:  https://github.com/emacsattic
 * Issues Tracker:           https://github.com/emacsmirror/p/issues
-* Emacsmirror Splashpage:   http://emacsmirror.org
-* Emacsattic Splashpage:    http://emacsmirror.org/emacsattic.html
+* Emacsmirror Splashpage:   http://emacsmirror.net
+* Emacsattic Splashpage:    http://emacsmirror.net/emacsattic.html
 
 ### Tell me about missing/outdated packages
 
